@@ -7,17 +7,17 @@
  */
 
 // Predefine the variables below in order to alter and enable specific features.
-$inuit-box-padding:         $inuit-base-spacing-unit !default;
-$inuit-box-padding--tiny:     quarter($inuit-box-padding) !default;
-$inuit-box-padding--small:      halve($inuit-box-padding) !default;
-$inuit-box-padding--large:     double($inuit-box-padding) !default;
-$inuit-box-padding--huge:   quadruple($inuit-box-padding) !default;
+$o-box-padding:         $inuit-base-spacing-unit !default;
+$o-box-padding--tiny:     quarter($o-box-padding) !default;
+$o-box-padding--small:      halve($o-box-padding) !default;
+$o-box-padding--large:     double($o-box-padding) !default;
+$o-box-padding--huge:   quadruple($o-box-padding) !default;
 
-$inuit-enable-box--flush:   false !default;
-$inuit-enable-box--tiny:    false !default;
-$inuit-enable-box--small:   false !default;
-$inuit-enable-box--large:   false !default;
-$inuit-enable-box--huge:    false !default;
+$o-box--flush:   false !default;
+$o-box--tiny:    false !default;
+$o-box--small:   false !default;
+$o-box--large:   false !default;
+$o-box--huge:    false !default;
 
 
 
@@ -29,7 +29,7 @@ $inuit-enable-box--huge:    false !default;
 .o-box {
     @extend %u-clearfix;
     display: block; /* [1] */
-    padding: $inuit-box-padding;
+    padding: $o-box-padding;
 
     > :last-child {
         margin-bottom: 0;
@@ -41,7 +41,7 @@ $inuit-enable-box--huge:    false !default;
 
 
 
-@if ($inuit-enable-box--flush == true) {
+@if ($o-box--flush == true) {
 
     /**
      * Flush (i.e. no padding) box.
@@ -53,50 +53,50 @@ $inuit-enable-box--huge:    false !default;
 
 }
 
-@if ($inuit-enable-box--tiny == true) {
+@if ($o-box--tiny == true) {
 
     /**
      * Tiny box.
      */
 
     .o-box--tiny {
-        padding: $inuit-box-padding--tiny;
+        padding: $o-box-padding--tiny;
     }
 
 }
 
-@if ($inuit-enable-box--small == true) {
+@if ($o-box--small == true) {
 
     /**
      * Small box.
      */
 
     .o-box--small {
-        padding: $inuit-box-padding--small;
+        padding: $o-box-padding--small;
     }
 
 }
 
-@if ($inuit-enable-box--large == true) {
+@if ($o-box--large == true) {
 
     /**
      * Large box.
      */
 
     .o-box--large {
-        padding: $inuit-box-padding--large;
+        padding: $o-box-padding--large;
     }
 
 }
 
-@if ($inuit-enable-box--huge == true) {
+@if ($o-box--huge == true) {
 
     /**
      * Huge box.
      */
 
     .o-box--huge {
-        padding: $inuit-box-padding--huge;
+        padding: $o-box-padding--huge;
     }
 
 }
