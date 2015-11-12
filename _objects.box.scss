@@ -27,7 +27,7 @@ $inuit-enable-box--huge:    false !default;
  * 1. So we can apply the `.box` class to naturally-inline elements.
  */
 .o-box {
-    @extend %clearfix;
+    @extend %u-clearfix;
     display: block; /* [1] */
     padding: $inuit-box-padding;
 
