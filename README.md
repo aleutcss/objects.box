@@ -10,22 +10,20 @@ aleutcss’ Box object depends on three other aleutcss modules:
 * [tools.functions](https://github.com/aleutcss/tools.functions)
 * [trumps.clearfix](https://github.com/aleutcss/trumps.clearfix)
 
-If you install the Box object using Bower, you will get these dependencies at
-the same time. If not using Bower, please be sure to install and `@import` these
+If you install the Box object using NPM, you will get these dependencies at
+the same time. If not using NPM, please be sure to install and `@import` these
 dependencies in the relevant way.
 
 ## Installation
 
-The recommended installation method is Bower, but you can install the Box
+The recommended installation method is NPM, but you can install the Box
 module via a Git Submodule, or copy and paste.
 
-### Install using Bower:
-
-    $ bower install --save inuit-box
+### 
 
 Install using npm:
 
-    $ npm install --save inuit-box
+    $ npm install --save-dev aleut-box
 
 Once installed, `@import` into your project in its Objects layer:
 
