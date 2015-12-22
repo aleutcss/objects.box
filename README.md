@@ -4,11 +4,11 @@ The Box object simply boxes off content.
 
 ## Dependencies
 
-inuitcss’ Box object depends on three other inuitcss modules:
+aleutcss’ Box object depends on three other aleutcss modules:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
-* [tools.functions](https://github.com/inuitcss/tools.functions)
-* [trumps.clearfix](https://github.com/inuitcss/trumps.clearfix)
+* [settings.defaults](https://github.com/aleutcss/settings.defaults)
+* [tools.functions](https://github.com/aleutcss/tools.functions)
+* [trumps.clearfix](https://github.com/aleutcss/trumps.clearfix)
 
 If you install the Box object using Bower, you will get these dependencies at
 the same time. If not using Bower, please be sure to install and `@import` these
@@ -33,7 +33,7 @@ Once installed, `@import` into your project in its Objects layer:
 
 ### Install as a Git Submodule
 
-    $ git submodule add git@github.com:inuitcss/objects.box.git
+    $ git submodule add git@github.com:aleutcss/objects.box.git
 
 Once installed, `@import` into your project in its Objects layer:
 
