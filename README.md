@@ -27,7 +27,7 @@ Install using npm:
 
 Once installed, `@import` into your project in its Objects layer:
 
-    @import "bower_components/inuit-box/objects.box";
+    @import "node_modules/inuit-box/objects.box";
 
 ### Install as a Git Submodule
 
