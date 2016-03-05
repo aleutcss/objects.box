@@ -4,12 +4,14 @@ The Box object simply boxes off content.
 
 ## Install using npm:
 
+```ssh
     $ npm install --save-dev aleut-box
-
+```
 
 ## Usage
 
 Basic usage of the Box object uses the required classes:
+
 ```html
 <div class="o-box">
     Foo Bar Baz
@@ -24,6 +26,7 @@ Other, optional classes can supplement the required base classes:
 * `.o-box--[tiny|small|large|huge]`: alter the padding on boxes.
 
 For example:
+
 ```html
 <div class="o-box  o-box--large">
     Foo Bar Baz
