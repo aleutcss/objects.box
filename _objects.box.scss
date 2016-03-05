@@ -27,7 +27,7 @@ $o-box--huge:    false !default;
  * 1. So we can apply the `.box` class to naturally-inline elements.
  */
 .o-box {
-    @extend %u-clearfix;
+    @include clearfix;
     display: block; /* [1] */
     padding: $o-box-padding;
 
