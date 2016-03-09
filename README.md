@@ -18,6 +18,8 @@ Basic usage of the Box object uses the required classes:
 </div>
 ```
 
+![Example of o-box](https://github.com/aleutcss/Aleut/tree/gh-pages/public/img/o-box.png)
+
 ## Options
 
 Other, optional classes can supplement the required base classes:
@@ -32,6 +34,8 @@ For example:
     Foo Bar Baz
 </div>
 ```
+
+![Example of o-box options](https://github.com/aleutcss/Aleut/tree/gh-pages/public/img/o-box-options.png)
 
 ### Enable options
 To enable the optional classes set the variables to `true` before you import
