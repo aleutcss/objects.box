@@ -1,5 +1,6 @@
 {
-  "name": "@aleut/objects.box",
+  "name": "aleut.objects.box"
+,
   "version": "1.0.0",
   "description": "Basic box object for the aleutcss framework (based on Harry Roberts inuitcss framework)",
   "main": "_objects.box.scss",
@@ -25,8 +26,9 @@
     "css"
   ],
   "dependencies": {
-    "@aleut/settings.defaults": "~1.0.0",
-    "@aleut/tools.clearfix": "~1.0.0",
-    "@aleut/tools.functions": "~1.0.0"
+    "aleut.settings.defaults": "~1.0.0",
+    "aleut.tools.clearfix": "~1.0.0",
+    "aleut.tools.functions": "~1.0.0"
+
   }
 }
