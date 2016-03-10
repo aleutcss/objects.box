@@ -5,7 +5,7 @@ The Box object simply boxes off content.
 ## Install using npm:
 
 ```ssh
-    $ npm install --save-dev aleut-box
+    $ npm install --save-dev @aleut/objects.box
 ```
 
 ## Usage
